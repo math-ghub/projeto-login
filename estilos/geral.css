@@ -67,8 +67,18 @@ section{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
 }
 
+#entrar:hover{
+    background-color: rgb(12, 83, 60);
+    transition: 0.2s;
+}
+
 #esqueci{
     color: rgb(19, 85, 63);
+}
+
+#esqueci:hover{
+    background-color: gray;
+    transition: 0.2s;
 }
 
 @media screen and (min-width: 700px){
