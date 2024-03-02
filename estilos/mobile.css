@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+main{
+    width: 50vw;
+    height: 470px;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+#bg{
+    height: 40%;
+    background-size: cover;
+}
+
+#menu > h2{
+    padding-top: 5px;
+}
+
+#menu > p{
+   font-size: 15px; 
+}
+
+.formdiv{
+    margin-bottom: 5px;
+}
+
+.formdiv > i{
+    width: 13%;
+    height: 20px;
+}
+
+#user{
+    width: 84%;
+    height: 30px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+#pass{
+    width: 84%;
+    height: 30px;
+    margin-top: 1px;
+    font-size: 20px;
+}

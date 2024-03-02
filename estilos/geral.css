@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(179, 73, 189);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+section{
+    text-align: center;
+    vertical-align: top;
+}
+
+#bg{
+    background-image: url(../imagens/wallpaper.jpeg);
+}
+
+.formdiv{
+    text-align: center;
+    vertical-align: center;
+    border-radius: 5px;
+    background-color: rgb(150, 23, 150);
+    overflow: hidden;
+}
+
+.formdiv > i{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+#user{
+    border-radius: 5px;
+}
+
+#pass{
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 700px){
+
+    body{
+        background-image: linear-gradient(to top, cyan, purple);
+    }
+
+    main{
+        width: 75vw;
+        margin: auto;
+        margin-top: 30vh;
+        height: 250px;
+    }
+
+    section{
+        display: inline-block;
+    }
+
+    #bg{
+        background-size: cover;
+        width: 35%;
+        height: 100%;
+    }
+
+    #menu{
+        width: 64%;
+        height: 100%;
+    }
+
+    #menu > h2{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .formdiv{
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+    .formdiv > i{
+        width: 9.5%;
+        height: 30px;
+    }
+
+    #user{
+        width: 89%;
+        height: 34px;
+        margin-top: 1px;
+        font-size: 20px;
+    }
+
+    #pass{
+        width: 89%;
+        height: 34px;
+        margin-top: 1px;
+        font-size: 20px;
+    }
+}
