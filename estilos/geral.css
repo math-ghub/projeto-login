@@ -39,6 +39,8 @@ section{
     display: inline-block;
     position: relative;
     top: 5px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
 }
 
 #user{
@@ -49,6 +51,22 @@ section{
     border-radius: 5px;
 }
 
+.botoes{
+    border: 1px solid rgb(70, 218, 169);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.459);
+}
+
+#entrar{
+    background-color: rgb(70, 218, 169);
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
+}
+
+#esqueci{
+    color: rgb(19, 85, 63);
+}
 
 @media screen and (min-width: 700px){
 
@@ -88,6 +106,7 @@ section{
         height: 40px;
         margin: auto;
         margin-bottom: 5px;
+        margin-top: 2px;
     }
 
     .formdiv > i{
@@ -107,5 +126,15 @@ section{
         height: 34px;
         margin-top: 1px;
         font-size: 20px;
+    }
+    
+    #entrar{
+        width: 40%;
+        height: 40px;
+    }
+
+    #esqueci{
+        width: 40%;
+        height: 40px;
     }
 }

@@ -14,10 +14,12 @@
         <section id="bg"></section>
         <section id="menu">
             <h2>Login</h2>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p><br>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="" method="post">
-                <div class="formdiv"><i class="material-symbols-outlined">deployed_code</i><input type="text" name="user" id="user" required placeholder="E-mail"></div>
-                <div class="formdiv"><i class="material-symbols-outlined">key_vertical</i><input type="password" name="pass" id="pass" required placeholder="Senha"></div>
+                <div class="formdiv"><i class="material-symbols-outlined">deployed_code</i><input type="text" name="user" id="user" required placeholder="E-mail" autocomplete="email"></div>
+                <div class="formdiv"><i class="material-symbols-outlined">key_vertical</i><input type="password" name="pass" id="pass" required placeholder="Senha" autocomplete="current-password" minlength="8"></div>
+                <input class="botoes" id="entrar" type="submit" value="Entrar">
+                <input class="botoes" id="esqueci" type="button" value="Esqueci a senha">
             </form>
         </section>
     </main>
